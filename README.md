@@ -28,4 +28,4 @@ collection.insert_many(df_json.to_dict(orient='records'))
 ## 3 Flask
 
 ### 3.1 Echarts et bootstrap
-
+Nous utilisons Echarts et bootstrap pour concevoir notre page d'accueil. Les fichiers js et css des deux sont stockés dans le dossier "static"（flasksteam/static）.
