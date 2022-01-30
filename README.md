@@ -6,12 +6,12 @@ Notre projet est un site de présentation des jeux du Top 50 de Steam basé sur 
 
 Nous allons afficher un tableau dynamique des prix sur la page web, où vous pourrez voir le nombre de jeux avec des prix différents en pourcentage du nombre total de jeux.
 
-Après cela, nous avons une brève description des trois meilleurs jeux. Comme certains jeux avec DLC sont comptabilisés comme un seul jeu, nous les avons regroupés pour établir le tableau, de sorte que le nombre final de jeux est inférieur à 50 car nous avons supprimé les doublons.
+Après cela, nous avons une brève description des trois meilleurs jeux. Comme certains jeux avec DLC sont comptabilisés comme un seul jeu, nous les avons regroupés pour établir le tableau, de sorte que le nombre final de jeux est inférieur à 50 car nous avons supprimé les doublons.Dans ce tableau, vous pouvez voir le nom du jeu, sa date de sortie et son prix.
 
 ```
 Étapes de la réalisation de notre projet:
-   - Explorer les données via un crawler et sauvegarder les données dans un fichier au format json.这边还要补充一下文件夹的名字。 
-   -Exécutez app.py et ouvrez le site Web par défaut http://127.0.0.1:5000/ pour afficher notre site Web.
+1. Explorer les données via un crawler et sauvegarder les données dans un fichier au format json.这边还要补充一下文件夹的名字。 
+2. Exécutez app.py et ouvrez le site Web par défaut http://127.0.0.1:5000/ pour afficher notre site Web.
   
   ```
 
