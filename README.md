@@ -2,10 +2,21 @@
 
    # *TOP50  Steam games*
 
-
 Notre projet est un site de présentation des jeux du Top 50 de Steam basé sur Flask, Mongo et Scrapy.
+
 Nous allons afficher un tableau dynamique des prix sur la page web, où vous pourrez voir le nombre de jeux avec des prix différents en pourcentage du nombre total de jeux.
+
 Après cela, nous avons une brève description des trois meilleurs jeux. Comme certains jeux avec DLC sont comptabilisés comme un seul jeu, nous les avons regroupés pour établir le tableau, de sorte que le nombre final de jeux est inférieur à 50 car nous avons supprimé les doublons.
+
+```
+Étapes de la réalisation de notre projet:
+   - Explorer les données via un crawler et sauvegarder les données dans un fichier au format json.这边还要补充一下文件夹的名字。 
+   - Exécutez le fichier mongo.py dans "flasksteam" pour lire les données et les enregistrer dans MongoDB.
+   -Exécutez app.py et ouvrez le site Web par défaut http://127.0.0.1:5000/ pour afficher notre site Web.
+  
+  ```
+
+## Docker
 
 ## 1 Scrape
 
@@ -27,5 +38,5 @@ collection.insert_many(df_json.to_dict(orient='records'))
 
 ## 3 Flask
 
-### 3.1 Echarts et bootstrap
 Nous utilisons Echarts et bootstrap pour concevoir notre page d'accueil. Les fichiers js et css des deux sont stockés dans le dossier "static"（flasksteam/static）.
+Le fichier de mise en page de notre site web est "index.html", qui se trouve dans le dossier "tamplates".
