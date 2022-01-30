@@ -11,7 +11,6 @@ Après cela, nous avons une brève description des trois meilleurs jeux. Comme c
 ```
 Étapes de la réalisation de notre projet:
    - Explorer les données via un crawler et sauvegarder les données dans un fichier au format json.这边还要补充一下文件夹的名字。 
-   - Exécutez le fichier mongo.py dans "flasksteam" pour lire les données et les enregistrer dans MongoDB.
    -Exécutez app.py et ouvrez le site Web par défaut http://127.0.0.1:5000/ pour afficher notre site Web.
   
   ```
@@ -25,8 +24,7 @@ Après cela, nous avons une brève description des trois meilleurs jeux. Comme c
 
 ## 2 Mongo
 - Nous enregistrons les données au format json, nommé "data5.json".
-- Nous passons les données dans la base de données mongo via mongo.py. Le nom de la base de données est "Steamgame" et nous créons une collection appelée "steam". Le port est le port par défaut 27017.
-
+- Nous passons les données dans la base de données mongo via le code concernant mongo dans app.py. Le nom de la base de données est "Steamgame" et nous créons une collection appelée "steam". Le port est le 27017 par défaut.
 ```
 client = MongoClient('mongodb://localhost:27017/')  
 database = client['steamgame']  
