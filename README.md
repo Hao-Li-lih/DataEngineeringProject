@@ -40,3 +40,9 @@ collection.insert_many(df_json.to_dict(orient='records'))
 
 Nous utilisons Echarts et bootstrap pour concevoir notre page d'accueil. Les fichiers js et css des deux sont stockés dans le dossier "static"（flasksteam/static）.
 Le fichier de mise en page de notre site web est "index.html", qui se trouve dans le dossier "tamplates".
+
+
+## Contact
+
+* **Hao LI** - *student* -ESIEE Paris，<hao.li@edu.esiee.fr>
+* **Zhneyu ZHU** - *student* -ESIEE Paris，<zhenyu.zhu@edu.esiee.fr>
